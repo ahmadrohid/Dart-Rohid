@@ -7,4 +7,5 @@ void main(){
     "support Saya": 200,
   };
   print(data);
+  //Map merupakan pasangan kunci dan isi. Kunci dan isi tersebut biasa dipanggil dengan key dan value. Setiap key dan value dapat dideklarasikan tipe datanya.
 }
