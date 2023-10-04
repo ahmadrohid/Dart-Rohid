@@ -1,11 +1,28 @@
 void main(){
-  Map<String, dynamic> data = {
-    "url": "https://youtube.com",
-    "domain": "youtube.com",
-    "penulis": "Ahmad Rohid Rahman",
-    "total admin": 1,
-    "support Saya": 200,
+
+  Map<String, String> map1 = {};
+  var map2 = Map<String, String>();
+  var map3 = <String, String>{};
+
+  print(map1);
+
+  var name = <String, String>{
+    'first': 'Ahmad',
+    'middle': 'Rohid',
+    'last': 'Rahman',
   };
-  print(data);
-  //Map merupakan pasangan kunci dan isi. Kunci dan isi tersebut biasa dipanggil dengan key dan value. Setiap key dan value dapat dideklarasikan tipe datanya.
+
+  // name['first'] = 'Ahmad';
+  // name['middle'] = 'Rohid';
+  // name['last'] = 'Rahman';
+
+  print(name);
+  print(name['first']);
+
+  name['middle'] = 'Nugraha';
+  print(name);
+
+  name.remove('last');
+  print(name);
+
 }

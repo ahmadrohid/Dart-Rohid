@@ -1,5 +1,9 @@
 void main(){
-  bool data = true;
-  print(data);
-  //Merupakan tipe data yang berisikan kebenaran.
+
+  bool finish = false;
+  print(finish);
+
+  finish = true;
+  print(finish);
+
 }

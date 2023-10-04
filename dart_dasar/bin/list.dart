@@ -1,5 +1,32 @@
 void main(){
-  List data = [1,2,3,"a","b","c"];
-  print(data);
-  //List merupakan tumpukan data. Jika kalian familiar dengan PHP atau Javascript , List merupakan sebuah Array. Isi data dari List bisa dideskripsikan secara statis, contohnya List<double>, List<String>, List<int> , dan terserah lagi.
+
+  List<int> listInt = [];
+
+  var listString = <String>[];
+
+  print(listInt);
+  print(listString);
+
+  var names = <String>[
+    'Ahmad',
+    'Rohid',
+    'Rahman',
+  ];
+
+  // names.add('Ahmad');
+  // names.add('Rohid');
+  // names.add('Rahman');
+
+  print(names);
+  print(names.length);
+
+  print(names[0]);
+
+  names[0] = 'Budi';
+  print(names[0]);
+
+  names.removeAt(1);
+  print(names);
+  print(names[1]);
+
 }

@@ -1,14 +1,11 @@
-void main() { 
-    cariBudi("Malang", (ada){
-      print(ada);
-    });
-    cariBudi("Banyuwangi", (ada){
-      print(ada);
-    });
+void sayHello(){
+  print('Hello World');
+  print('Hello Lagi');
+  print('Hello Lagi dan lagi');
 }
 
-void cariBudi(String lokasi, void Function(String ada) cari){
- if(lokasi=="Banyuwangi") cari("Ada");
- else cari("Tidak ada");
- //Function merupakan tipe data yang biasa digunakan untuk callback
+void main(){
+  sayHello();
+  sayHello();
+  sayHello();
 }
