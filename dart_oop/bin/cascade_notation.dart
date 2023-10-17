@@ -1,3 +1,5 @@
+import 'dart:async';
+
 class User {
   String? username;
   String? name;
@@ -16,11 +18,16 @@ void main(){
 
   var user = User()
     ..username = "Rohid"
-    ..name = "Rohid"
+    ..name = "Ahmad Rohid Rahman"
     ..email = "Rohid@contoh.com";
 
     User? user2 = createUser()
     ?..username = "Rohid"
-    ..name = "Rohid"
+    ..name = "Ahmad Rohid Rahman"
     ..email = "Rohid@contoh.com";
+
+  print(user.username);
+  print(user.name);
+  print(user.email);
+
 }
