@@ -5,8 +5,8 @@ void main(){
   var pair2 = pair<String, int>("Ahmad", 500);
 
   print(pair1.first);
-  print(pair2.second);
+  print(pair1.second);
 
+  print(pair2.first);
   print(pair2.second);
-  print(pair1.first);
 }
